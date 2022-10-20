@@ -1,0 +1,81 @@
+section{
+    width: 100%;
+    background-color: #eee;
+    .body-content{  
+        max-width: 50%;
+        margin-left: 25%;
+        background-color: #fff;
+        box-shadow: 0.25px 0.25px 30px 0.5px rgba(128, 128, 128, 0.315);
+
+
+        .add-task-button{
+            padding: 8px 3px ;
+            background-color: $add-task-list;
+            color: white;
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+            border: none;
+            border-radius: 2px;
+            margin: 15px 25px;
+        }
+        .add-task-hr{
+            height: 2px;
+            border: none;
+            background-color: rgba(128, 128, 128, 0.254);
+        }
+        .part-one{
+            padding: 15px 25px;
+            .main-heading{
+                .chevron{
+                    margin-right: 2px;
+                }
+              .heading-text{
+                font-weight: bold;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-bottom: 10px;
+              }  
+            }
+            .headings-hr{
+                border: 0.25px solid #000;
+              }
+        }
+        .part-two{
+            padding: 15px 25px;
+            .main-heading{
+                .chevron{
+                    margin-right: 2px;
+                }
+              .heading-text{
+                font-weight: bold;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-bottom: 10px;
+              }  
+         
+            }
+            .headings-hr{
+                border: 0.25px solid #000;
+              }
+        }
+        .part-three{
+            padding: 15px 25px;
+            .main-heading{
+                .chevron{
+                    margin-right: 2px;
+                }
+              .heading-text{
+                font-weight: bold;
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-bottom: 10px;
+              }  
+
+            }
+            .headings-hr{
+                border: 0.25px solid #000;
+              }
+        }
+    }
+
+}

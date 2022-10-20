@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eee;
+}
+
 header {
-  max-width: 98%;
-  margin-left: 1%;
-  padding: 1% 1% 0;
+  max-width: 100%;
+  padding: 1% 2% 0;
+  box-shadow: 1px 1px 30px 3px rgba(128, 128, 128, 0.327);
+  margin-bottom: 30px;
 }
 header .head-content {
   display: flex;
@@ -33,20 +38,27 @@ header .head-content .left-side .task nav ul {
 }
 header .head-content .left-side .task nav ul li {
   list-style: none;
+  padding-bottom: 15px;
 }
 header .head-content .left-side .task nav ul li a {
   text-decoration: none;
   color: #000;
   font-size: 18px;
-  padding-bottom: 8px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+header .head-content .left-side .task nav ul li a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 header .head-content .right-side .search-bar {
   display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   position: relative;
 }
 header .head-content .right-side .search-bar input {
-  width: 10%;
+  width: 50px;
 }
 header .head-content .right-side .search-bar .search-bar-icon-container {
   position: relative;
@@ -65,4 +77,79 @@ header .head-content .right-side .passport-container {
   width: 8px;
   height: 8px;
   background-image: url("/images/service-center.png");
+}
+
+body {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  background-color: #eee;
+}
+section .body-content {
+  max-width: 50%;
+  margin-left: 25%;
+  background-color: #fff;
+  box-shadow: 0.25px 0.25px 30px 0.5px rgba(128, 128, 128, 0.315);
+}
+section .body-content .add-task-button {
+  padding: 8px 3px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  border-radius: 2px;
+  margin: 15px 25px;
+}
+section .body-content .add-task-hr {
+  height: 2px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.254);
+}
+section .body-content .part-one {
+  padding: 15px 25px;
+}
+section .body-content .part-one .main-heading .chevron {
+  margin-right: 2px;
+}
+section .body-content .part-one .main-heading .heading-text {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+section .body-content .part-one .headings-hr {
+  border: 0.25px solid #000;
+}
+section .body-content .part-two {
+  padding: 15px 25px;
+}
+section .body-content .part-two .main-heading .chevron {
+  margin-right: 2px;
+}
+section .body-content .part-two .main-heading .heading-text {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+section .body-content .part-two .headings-hr {
+  border: 0.25px solid #000;
+}
+section .body-content .part-three {
+  padding: 15px 25px;
+}
+section .body-content .part-three .main-heading .chevron {
+  margin-right: 2px;
+}
+section .body-content .part-three .main-heading .heading-text {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+section .body-content .part-three .headings-hr {
+  border: 0.25px solid #000;
 }/*# sourceMappingURL=style.css.map */
