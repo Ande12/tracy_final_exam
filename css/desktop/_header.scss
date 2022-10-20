@@ -1,0 +1,66 @@
+header{
+    max-width: 98%;
+    margin-left: 1%;
+    padding: 1% 1% 0;
+    .head-content{
+        display: flex;
+        justify-content: space-between;
+        .left-side{
+            display: flex;
+            align-content: center;
+            column-gap: 20px;
+            .hamburger{
+                padding-top: 20px
+            }
+            .task{
+                h1{
+                    font-size:25px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                nav{
+                    ul{
+                        display: flex;
+                        column-gap: 10px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: #000;
+                                font-size: 18px;
+                                padding-bottom: 8px;
+                                font-family: Georgia, 'Times New Roman', Times, serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right-side{
+        .search-bar{
+            display: flex;
+            position: relative;
+            input{
+                width: 10%;
+            }
+            .search-bar-icon-container{
+                position: relative;
+                i{
+                    position: absolute;
+                }
+            }
+        }
+        .plus-container{
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: $add-task-list;
+        }
+        .passport-container{
+            width: 8px;
+            height: 8px;
+            background-image: url("/images/service-center.png");
+        }
+       }
+    }
+}

@@ -2,4 +2,67 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header {
+  max-width: 98%;
+  margin-left: 1%;
+  padding: 1% 1% 0;
+}
+header .head-content {
+  display: flex;
+  justify-content: space-between;
+}
+header .head-content .left-side {
+  display: flex;
+  align-content: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+header .head-content .left-side .hamburger {
+  padding-top: 20px;
+}
+header .head-content .left-side .task h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .head-content .left-side .task nav ul {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+header .head-content .left-side .task nav ul li {
+  list-style: none;
+}
+header .head-content .left-side .task nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding-bottom: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header .head-content .right-side .search-bar {
+  display: flex;
+  position: relative;
+}
+header .head-content .right-side .search-bar input {
+  width: 10%;
+}
+header .head-content .right-side .search-bar .search-bar-icon-container {
+  position: relative;
+}
+header .head-content .right-side .search-bar .search-bar-icon-container i {
+  position: absolute;
+}
+header .head-content .right-side .plus-container {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: blue;
+}
+header .head-content .right-side .passport-container {
+  width: 8px;
+  height: 8px;
+  background-image: url("/images/service-center.png");
 }/*# sourceMappingURL=style.css.map */
