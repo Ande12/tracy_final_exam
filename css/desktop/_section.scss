@@ -101,7 +101,7 @@ section{
                     
                 }
               }
-              .part-line .two{
+              .two{
                 display: flex;
                 justify-content: space-between;
                 .first-point{
@@ -117,7 +117,7 @@ section{
                         border-radius: 35px;
                         padding: 5px 7px;
                         font-size: 16px;
-                        background-color: $add-task-list;
+                        background-color: $brand-campaign;
                     }
                     p{
                         color: $tomo-today;
@@ -125,12 +125,60 @@ section{
                     
                 }
               }
-              .part-hr{
-                height: 2px;
-                border: none;
-                background-color: rgba(128, 128, 128, 0.254);
+              .three{
+                display: flex;
+                justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $recruiting;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                    
+                }
+              }
+              .four{
+                display: flex;
+                justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $mobile;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                    
+                }
               }
         }
+        .part-hr{
+            height: 2px;
+            border: none;
+            background-color: rgba(128, 128, 128, 0.254);
+          }
         .part-three{
             padding: 15px 25px;
             .main-heading{
@@ -149,20 +197,79 @@ section{
                 border: 0.25px solid #000;
                 margin-bottom: 10px;
               }
-              .part-line{
+              .part-line, .two{
                 display: flex;
                 justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
                 .more-info{
                     display: flex;
                     column-gap: 20px;
                     button{
-                        border-radius: 20%;
-                        padding: 3px 5px;
-                        background-color: $add-task-list;
+                        color: white;
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $website;
                     }
                     p{
                         color: $tomo-today;
                     }
+                    
+                }
+              }
+              .three{
+                display: flex;
+                justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        color: #000;
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $sales;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                    
+                }
+              }
+              .four{
+                display: flex;
+                justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        color: #000;
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $editorial
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                    
                 }
               }
         }

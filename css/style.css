@@ -181,29 +181,73 @@ section .body-content .part-two .part-line .more-info button {
 section .body-content .part-two .part-line .more-info p {
   color: green;
 }
-section .body-content .part-two .part-line .two {
+section .body-content .part-two .two {
   display: flex;
   justify-content: space-between;
 }
-section .body-content .part-two .part-line .two .first-point label {
+section .body-content .part-two .two .first-point label {
   font-size: 16px;
 }
-section .body-content .part-two .part-line .two .more-info {
+section .body-content .part-two .two .more-info {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-section .body-content .part-two .part-line .two .more-info button {
+section .body-content .part-two .two .more-info button {
   border: none;
   border-radius: 35px;
   padding: 5px 7px;
   font-size: 16px;
-  background-color: blue;
+  background-color: orange;
 }
-section .body-content .part-two .part-line .two .more-info p {
+section .body-content .part-two .two .more-info p {
   color: green;
 }
-section .body-content .part-two .part-hr {
+section .body-content .part-two .three {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-two .three .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-two .three .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-two .three .more-info button {
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: teal;
+}
+section .body-content .part-two .three .more-info p {
+  color: green;
+}
+section .body-content .part-two .four {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-two .four .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-two .four .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-two .four .more-info button {
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: red;
+}
+section .body-content .part-two .four .more-info p {
+  color: green;
+}
+section .body-content .part-hr {
   height: 2px;
   border: none;
   background-color: rgba(128, 128, 128, 0.254);
@@ -224,20 +268,72 @@ section .body-content .part-three .headings-hr {
   border: 0.25px solid #000;
   margin-bottom: 10px;
 }
-section .body-content .part-three .part-line {
+section .body-content .part-three .part-line, section .body-content .part-three .two {
   display: flex;
   justify-content: space-between;
 }
-section .body-content .part-three .part-line .more-info {
+section .body-content .part-three .part-line .first-point label, section .body-content .part-three .two .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-three .part-line .more-info, section .body-content .part-three .two .more-info {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-section .body-content .part-three .part-line .more-info button {
-  border-radius: 20%;
-  padding: 3px 5px;
+section .body-content .part-three .part-line .more-info button, section .body-content .part-three .two .more-info button {
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: #4A0404;
+}
+section .body-content .part-three .part-line .more-info p, section .body-content .part-three .two .more-info p {
+  color: green;
+}
+section .body-content .part-three .three {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-three .three .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-three .three .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-three .three .more-info button {
+  color: #000;
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: #e3ff00;
+}
+section .body-content .part-three .three .more-info p {
+  color: green;
+}
+section .body-content .part-three .four {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-three .four .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-three .four .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-three .four .more-info button {
+  color: #000;
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
   background-color: blue;
 }
-section .body-content .part-three .part-line .more-info p {
+section .body-content .part-three .four .more-info p {
   color: green;
 }/*# sourceMappingURL=style.css.map */
