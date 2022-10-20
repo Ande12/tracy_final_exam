@@ -122,6 +122,26 @@ section .body-content .part-one .main-heading .heading-text {
 }
 section .body-content .part-one .headings-hr {
   border: 0.25px solid #000;
+  margin-bottom: 10px;
+}
+section .body-content .part-one .part-line {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-one .part-line .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-one .part-line .more-info button {
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: blue;
+}
+section .body-content .part-one .part-line .more-info p {
+  color: green;
 }
 section .body-content .part-two {
   padding: 15px 25px;
@@ -137,6 +157,56 @@ section .body-content .part-two .main-heading .heading-text {
 }
 section .body-content .part-two .headings-hr {
   border: 0.25px solid #000;
+  margin-bottom: 10px;
+}
+section .body-content .part-two .part-line {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-two .part-line .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-two .part-line .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-two .part-line .more-info button {
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: blue;
+}
+section .body-content .part-two .part-line .more-info p {
+  color: green;
+}
+section .body-content .part-two .part-line .two {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-two .part-line .two .first-point label {
+  font-size: 16px;
+}
+section .body-content .part-two .part-line .two .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-two .part-line .two .more-info button {
+  border: none;
+  border-radius: 35px;
+  padding: 5px 7px;
+  font-size: 16px;
+  background-color: blue;
+}
+section .body-content .part-two .part-line .two .more-info p {
+  color: green;
+}
+section .body-content .part-two .part-hr {
+  height: 2px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.254);
 }
 section .body-content .part-three {
   padding: 15px 25px;
@@ -152,4 +222,22 @@ section .body-content .part-three .main-heading .heading-text {
 }
 section .body-content .part-three .headings-hr {
   border: 0.25px solid #000;
+  margin-bottom: 10px;
+}
+section .body-content .part-three .part-line {
+  display: flex;
+  justify-content: space-between;
+}
+section .body-content .part-three .part-line .more-info {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .body-content .part-three .part-line .more-info button {
+  border-radius: 20%;
+  padding: 3px 5px;
+  background-color: blue;
+}
+section .body-content .part-three .part-line .more-info p {
+  color: green;
 }/*# sourceMappingURL=style.css.map */

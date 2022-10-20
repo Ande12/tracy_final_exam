@@ -38,6 +38,25 @@ section{
             }
             .headings-hr{
                 border: 0.25px solid #000;
+                margin-bottom: 10px;
+              }
+              .part-line{
+                display: flex;
+                justify-content: space-between;
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $add-task-list;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                }
               }
         }
         .part-two{
@@ -56,6 +75,60 @@ section{
             }
             .headings-hr{
                 border: 0.25px solid #000;
+                margin-bottom: 10px;
+              }
+              .part-line{
+                display: flex;
+                justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $add-task-list;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                    
+                }
+              }
+              .part-line .two{
+                display: flex;
+                justify-content: space-between;
+                .first-point{
+                    label{
+                        font-size: 16px;
+                    }
+                }
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        border: none;
+                        border-radius: 35px;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        background-color: $add-task-list;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                    
+                }
+              }
+              .part-hr{
+                height: 2px;
+                border: none;
+                background-color: rgba(128, 128, 128, 0.254);
               }
         }
         .part-three{
@@ -74,6 +147,23 @@ section{
             }
             .headings-hr{
                 border: 0.25px solid #000;
+                margin-bottom: 10px;
+              }
+              .part-line{
+                display: flex;
+                justify-content: space-between;
+                .more-info{
+                    display: flex;
+                    column-gap: 20px;
+                    button{
+                        border-radius: 20%;
+                        padding: 3px 5px;
+                        background-color: $add-task-list;
+                    }
+                    p{
+                        color: $tomo-today;
+                    }
+                }
               }
         }
     }
